@@ -1,0 +1,38 @@
+body{
+    color:white;
+    background-color:black;
+    text-align: center;
+    
+}
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
+
+  .menu{
+    justify-content: space between;
+    align-items: center;
+    padding: 10px 20px;
+    background-image: url(gatojoinha.jpg);
+    text-align: center;
+  }
+  .items-menu li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 20px;
+    text-align: center;
+  }
+  .items-menu li a:hover{
+    color: green;
+  }
+  .items-menu li a{
+    color:greenyellow;
+    text-decoration: none;
+    }
